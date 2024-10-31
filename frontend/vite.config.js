@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://kimimifinal.vercel.app",
+        target: "https://kimimifinal.vercel.app/",
         changeOrigin: true,
         secure: true,
       },
